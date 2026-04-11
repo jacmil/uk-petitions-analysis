@@ -1,0 +1,43 @@
+name: py312-full
+channels:
+  - conda-forge
+  - pytorch
+dependencies:
+  - python=3.12
+  - numpy>=1.26,<2
+  - scipy
+  - pandas
+  - polars
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - plotly
+  - statsmodels
+  - joblib
+  - tqdm
+  - rich
+  - pyyaml
+  - ipykernel
+  - jupyterlab
+
+  # ML / NLP
+  - spacy
+  - thinc
+  - nltk
+  - gensim
+  - shap
+  - sentence-transformers
+  - umap-learn
+  - prince
+
+  # Tree models
+  - xgboost
+  - lightgbm
+  - catboost
+
+  # PyTorch (CPU-only, safe on Windows/macOS)
+  - pytorch
+  - torchvision
+  - torchaudio
+  - cpuonly
+
