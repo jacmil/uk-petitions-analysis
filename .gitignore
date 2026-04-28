@@ -1,0 +1,37 @@
+# Data files
+uk_petitions_final.csv
+*.csv
+*.zip
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+*.egg
+.venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Quarto
+/.quarto/
+*_files/
+
+# Environment
+*.yml.lock
+
